@@ -1,4 +1,4 @@
-##Intégration d'une IA dans une application 
+## Intégration d'une IA dans une application 
 
 L’entreprise Plastif a développé une machine de recyclage de déchets plastiques en filament d’impression 3D. Elle loue ses machines aux entreprises qui peuvent ainsi augmenter le recyclage de ses déchets : bouteilles, verres, couverts, etc…
 

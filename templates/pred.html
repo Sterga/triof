@@ -1,0 +1,63 @@
+<!DOCTYPE HTML>
+<!--
+	Identity by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Identity by HTML5 UP</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="/static/css/main.css" />
+		<noscript><link rel="stylesheet" href="/static/css/noscript.css" /></noscript>
+
+        <style>
+            #wrapper:before{
+                content: normal;
+            }
+        </style>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<section id="main">
+						<header>														
+							<p>Le résultat de l'analyse du déchet</p>
+						</header>
+
+
+						<p>{{ bouteille_name|safe}} = {{ bouteille_pred }}</p>
+						<p>{{ gobelet_name|safe}} = {{ gobelet_pred }}</p>
+						<p>{{ couverts_name|safe}} = {{ couverts_pred }}</p>
+
+						<div>
+							<ul class="actions special">
+								<li><a href="/confirmation_pred" class="button">Confirmez</a></li>
+							</ul>
+						</div>
+
+						<div>
+							<ul class="actions special">
+								<li><a href="/waste/pick-type" class="button">Modifiez</a></li>
+							</ul>
+						</div>
+
+
+					</section>
+
+			</div>
+
+		<!-- Scripts -->
+			<script>
+				if ('addEventListener' in window) {
+					window.addEventListener('load', function() { document.body.className = document.body.className.replace(/\bis-preload\b/, ''); });
+					document.body.className += (navigator.userAgent.match(/(MSIE|rv:11\.0)/) ? ' is-ie' : '');
+				}
+			</script>
+
+	</body>
+</html>
